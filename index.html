@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>TrendyAvenue - Inicio</title>
+		<link rel="stylesheet" href="css/normalize.css" />
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+
+	<body>
+		<header class="header">
+			<div class="menu container">
+				<a href="#" class="logo">TrendyAvenue</a>
+				<input type="checkbox" id="menu" />
+				<label for="menu">
+					<picture>
+						<source srcset="img/menu.avif" type="image/avif" />
+						<source srcset="img/menu.webp" type="image/webp" />
+						<img loading="lazy" src="img/menu.png" class="menu-icono" alt="Menu" />
+					</picture>
+				</label>
+				<nav class="navbar">
+					<ul>
+						<li><a href="#">Inicio</a></li>
+						<li><a href="#">Servicios</a></li>
+						<li><a href="#">Productos</a></li>
+						<li><a href="#">contacto</a></li>
+					</ul>
+				</nav>
+				<!-- Barra de Naavegacion -->
+
+				<div>
+					<ul>
+						<li class="submenu">
+							<img src="img/car.svg" alt="Carrito" id="img-carrito" />
+							<div id="carrito">
+								<table id="lista-carrito">
+									<thead>
+										<tr>
+											<th>Imagen</th>
+											<th>Nombre</th>
+											<th>Precio</th>
+											<th></th>
+										</tr>
+									</thead>
+									<tbody></tbody>
+								</table>
+								<a href="#" id="vaciar-carrito" class="btn-2">Vaciar Carrito</a>
+							</div>
+						</li>
+						<!-- sub menu -->
+					</ul>
+				</div>
+				<!-- div sub menu -->
+			</div>
+			<!-- Menu Container -->
+
+			<div class="header-content container">
+				<div class="header-img">
+					<picture>
+						<source srcset="img/right.avif" type="image/avif" />
+						<source srcset="img/right.webp" type="image/webpright.webp" />
+						<img loading="lazy" src="img/right.png" alt="imagen right" />
+					</picture>
+				</div>
+				<div class="header-txt">
+					<h1>Ofertas Especiaes</h1>
+					<p>estrena las mejores prendas</p>
+					<a href="#" class="btn-1">Informacion</a>
+				</div>
+				<!-- Div Header -->
+			</div>
+			<!-- .Div header-contet -->
+		</header>
+
+		<section class="ofert container">
+			<div class="ofert-1">
+				<div class="ofert-img">
+					<picture>
+						<source srcset="img/f1.avif" type="image/avif" />
+						<source srcset="img/f1.webp" type="image/webp" />
+						<img loading="lazy" src="img/f1.png" alt="Oferta" />
+					</picture>
+				</div>
+				<!-- .oferta-img -->
+				<div class="ofert-txt">
+					<h3>Under Armour Cinturo</h3>
+					<a href="#" class="btn-2">Informacion</a>
+				</div>
+			</div>
+			<!-- .oferta-1 -->
+
+			<div class="ofert-1">
+				<div class="ofert-img">
+					<picture>
+						<source srcset="img/f2.avif" type="image/avif" />
+						<source srcset="img/f2.webp" type="image/webp" />
+						<img loading="lazy" src="img/f2.png" alt="Oferta" />
+					</picture>
+				</div>
+				<!-- .oferta-img -->
+				<div class="ofert-txt">
+					<h3>Tenis Gaon</h3>
+					<a href="#" class="btn-2">Informacion</a>
+				</div>
+			</div>
+			<!-- .oferta-2 -->
+			<div class="ofert-1">
+				<div class="ofert-img">
+					<picture>
+						<source srcset="img/f3.avif" type="image/avif" />
+						<source srcset="img/f3.webp" type="image/webp" />
+						<img loading="lazy" src="img/f3.png" alt="Oferta" />
+					</picture>
+				</div>
+				<!-- .oferta-img -->
+				<div class="ofert-txt">
+					<h3>ETRONIK Bolsa</h3>
+					<a href="#" class="btn-2">Informacion</a>
+				</div>
+			</div>
+			<!-- .oferta-3 -->
+		</section>
+
+		<main class="products container" id="lista-1">
+			<h2>Productos</h2>
+
+			<div class="product-content">
+				<div class="product">
+					<picture>
+						<source srcset="img/1.avif" type="image/avif" />
+						<source srcset="img/1.webp" type="image/webp" />
+						<img loading="lazy" src="img/1.png" alt="" />
+					</picture>
+					<div class="product-txt">
+						<h3>Camisa Oxford<br>para hombre</h3>
+						<p>Calidad premium</p>
+						<p class="precio">$17.99</p>
+						<a href="#" class="agregar-carrito btn-2" data-id="1">Agregar al carrito</a>
+					</div>
+				</div>
+
+				<div class="product">
+					<picture>
+						<source srcset="img/2.avif" type="image/avif" />
+						<source srcset="img/2.webp" type="image/webp" />
+						<img loading="lazy" src="img/2.png" alt="" />
+					</picture>
+					<div class="product-txt">
+						<h3>Chaqueta táctica de Airsoft para hombre</h3>
+						<p>Chaqueta de senderismo para preparación de campamento</p>
+						<p class="precio">$75.00</p>
+						<a href="#" class="agregar-carrito btn-2" data-id="2">Agregar al carrito</a>
+					</div>
+				</div>
+
+				<div class="product">
+					<picture>
+						<source srcset="img/3.avif" type="image/avif" />
+						<source srcset="img/3.webp" type="image/webp" />
+						<img loading="lazy" src="img/3.png" alt="" />
+					</picture>
+					<div class="product-txt">
+						<h3>chaquetas de invierno para acampar</h3>
+						<p> senderismo, abrigo grueso y cálido con capucha a prueba de viento</p>
+						<p class="precio">$65.60</p>
+						<a href="#" class="agregar-carrito btn-2" data-id="3">Agregar al carrito</a>
+					</div>
+				</div>
+
+				<div class="product">
+					<picture>
+						<source srcset="img/4.avif" type="image/avif" />
+						<source srcset="img/4.webp" type="image/webp" />
+						<img loading="lazy" src="img/4.png" alt="" />
+					</picture>
+					<div class="product-txt">
+						<h3>Camisas de vestir para hombres Antiarrugas</h3>
+						<p>Elasticidad Slim Fit Hombres Vestido Casual Camisa de manga larga Azul</p>
+						<p class="precio">$30.99</p>
+						<a href="#" class="agregar-carrito btn-2" data-id="4">Agregar al carrito</a>
+					</div>
+				</div>
+
+				<div class="product">
+					<picture>
+						<source srcset="img/5.avif" type="image/avif" />
+						<source srcset="img/5.webp" type="image/webp" />
+						<img loading="lazy" src="img/5.png" alt="" />
+					</picture>
+					<div class="product-txt">
+						<h3>Uniplay</h3>
+						<p>Camisa de manga larga C150 Negra</p>
+						<p class="precio">$200</p>
+						<a href="#" class="agregar-carrito btn-2" data-id="5">Agregar al carrito</a>
+					</div>
+				</div>
+
+				<div class="product">
+					<picture>
+						<source srcset="img/6.avif" type="image/avif" />
+						<source srcset="img/6.webp" type="image/webp" />
+						<img loading="lazy" src="img/6.png" alt="" />
+					</picture>
+					<div class="product-txt">
+						<h3>Chaqueta de algodón cálido engrosada de invierno para mujer</h3>
+						<p>Calidad premium</p>
+						<p class="precio">$60.16</p>
+						<a href="#" class="agregar-carrito btn-2" data-id="6">Agregar al carrito</a>
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<section class="icons container">
+			<div class="icon-1">
+				<div class="icon-img">
+					<img src="img/i1.svg" alt="Imagen Gancho" />
+				</div>
+				<div class="icon-txt">
+					<h3>Descuentos Exclusivos</h3>
+					<p>Solo para ti.</p>
+				</div>
+			</div>
+
+			<div class="icon-1">
+				<div class="icon-img">
+					<img src="img/i2.svg" alt="Imagen Gancho" />
+				</div>
+				<div class="icon-txt">
+					<h3>Cuidado de tus prendas</h3>
+					<p>Y forma de vestir.</p>
+				</div>
+			</div>
+
+			<div class="icon-1">
+				<div class="icon-img">
+					<img src="img/i3.svg" alt="Imagen Gancho" />
+				</div>
+				<div class="icon-txt">
+					<h3>Estilos Personalizados</h3>
+					<p>Para todos</p>
+				</div>
+			</div>
+		</section>
+
+		<section class="blog container">
+			<div class="blog-1">
+				<picture>
+					<source srcset="img/b1.avif" type="image/avif" />
+					<source srcset="img/b1.webp" type="image/webp" />
+					<img loading="lazy" src="img/b1.jpg" alt="Imagen blog" />
+				</picture>
+				<h3>Últimas Tendencias en Moda Veraniega</h3>
+				<p>
+					Descubre las prendas imprescindibles para lucir a la moda este verano. Desde estampados tropicales hasta vestidos ligeros y
+					accesorios de playa, te mostramos cómo mantener tu estilo fresco y chic en los días calurosos.
+				</p>
+			</div>
+			<div class="blog-1">
+				<picture>
+					<source srcset="img/b2.avif" type="image/avif" />
+					<source srcset="img/b2.webp" type="image/webp" />
+					<img loading="lazy" src="img/b2.jpg" alt="Imagen blog" />
+				</picture>
+				<h3>Los Colores de la Temporada</h3>
+				<p>
+					Sumérgete en la paleta de colores de la temporada y descubre cómo incorporar los tonos más trendy en tu guardarropa. Desde el
+					vibrante coral hasta el elegante azul sereno, te mostramos cómo llevar estos colores de moda en tus outfits diarios.
+				</p>
+			</div>
+
+			<div class="blog-1">
+				<picture>
+					<source srcset="img/b3.avif" type="image/avif" />
+					<source srcset="img/b3.webp" type="image/webp" />
+					<img loading="lazy" src="img/b3.jpg" alt="Imagen blog" />
+				</picture>
+				<h3>Estilo Urbano: Inspiración de las Calles</h3>
+				<p>
+					Explora el fascinante mundo del estilo urbano y encuentra inspiración en las tendencias de las calles de las principales ciudades
+					del mundo. Desde el streetwear hasta los looks más sofisticados, te damos las claves para destacar con un estilo auténticamente
+					urbano.
+				</p>
+			</div>
+		</section>
+
+		<footer class="footer">
+    <div class="footer-content container">
+        <div class="link">
+            <h3>Navegación</h3>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </div>
+
+        <div class="link">
+            <h3>Categorías</h3>
+            <ul>
+                <li><a href="#">Ropa de Mujer</a></li>
+                <li><a href="#">Ropa de Hombre</a></li>
+                <li><a href="#">Accesorios</a></li>
+                <li><a href="#">Calzado</a></li>
+            </ul>
+        </div>
+
+        <div class="link">
+            <h3>Información</h3>
+            <ul>
+                <li><a href="#">Sobre Nosotros</a></li>
+                <li><a href="#">Política de Privacidad</a></li>
+                <li><a href="#">Términos y Condiciones</a></li>
+                <li><a href="#">Preguntas Frecuentes</a></li>
+            </ul>
+        </div>
+
+        <div class="link">
+            <h3>Contacto</h3>
+            <ul>
+                <li><a href="#">Email: info@trendyavenue.com</a></li>
+                <li><a href="#">Teléfono: +1 (123) 456-7890</a></li>
+                <li><a href="#">Dirección: 123 Calle Principal, Ciudad Trendy</a></li>
+                <li><a href="#">Síguenos en redes sociales</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+
+		<script src="js/scripts.js"></script>
+	</body>
+</html>
